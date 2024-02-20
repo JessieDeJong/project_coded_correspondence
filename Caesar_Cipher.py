@@ -18,6 +18,7 @@ def caesar_decode(code, offset):
 
 #Example test
 #print(caesar_decode('bqdradyuzs ygxfubxq omqemd oubtqde fa oapq kagd yqeemsqe ue qhqz yadq eqogdq!', 14))
+#Expected output: 'you were able to decode this? nice work! you are becoming quite the expert at crytography!'
 
 #This is a encoder funtion, where you can input a sentence and an offset of your choice to encode it.
 def caesar_code(sentence, offset):
@@ -32,6 +33,7 @@ def caesar_code(sentence, offset):
 
 #Example test
 #print(caesar_code('performing multiple caesar ciphers to code your messages is even more secure!', 14))
+#Expected output: 'bqdradyuzs ygxfubxq omqemd oubtqde fa oapq kagd yqeemsqe ue qhqz yadq eqogdq!'
 
 #This code if for when you need to decipher a sentence but you don't know the offset that is used.
 #Note that is uses the previous caesar_decode function
