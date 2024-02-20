@@ -28,7 +28,7 @@ def vigenere_code(sentence, keyword):
   return sentence_coded
 
 #Example test
-print(vigenere_code('barry is the spy', 'dog'))
+#print(vigenere_code('barry is the spy', 'dog'))
 #Expected output: 'ymlok cp fbb ejv'
 
 #This is the decoder function, you need the code and the keyword to decode the sentence
@@ -60,5 +60,5 @@ def vigenere_decode(code, keyword):
   return sentence_decoded
 
 #Example test
-print(vigenere_decode("txM srom vkda gl lzlgzr qpdb? fepb ejac! ubr imn tapludwy mhfbz czA ruxzal wg zztcgcexxch!", "friends"))
+#print(vigenere_decode("txM srom vkda gl lzlgzr qpdb? fepb ejac! ubr imn tapludwy mhfbz czA ruxzal wg zztcgcexxch!", "friends"))
 #Expected output: 'you were able to decode this? nice work! you are becoming quite the expert at crytography!'
