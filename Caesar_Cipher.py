@@ -19,7 +19,7 @@ def caesar_decode(code, offset):
 #Example test
 #print(caesar_decode('bqdradyuzs ygxfubxq omqemd oubtqde fa oapq kagd yqeemsqe ue qhqz yadq eqogdq!', 14))
 
-#This is a coder funtion, where you can input a sentence and an offset of your choice to decode it.
+#This is a encoder funtion, where you can input a sentence and an offset of your choice to encode it.
 def caesar_code(sentence, offset):
   sentence_decoded = ''#
   for letter in sentence.lower():
